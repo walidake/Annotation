@@ -1,0 +1,18 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app id="WebApp_1472441279703">
+	<display-name>annotation</display-name>
+	<context-param>
+		<param-name>mode</param-name>
+		<param-value>create</param-value>
+	</context-param>
+	<context-param>
+		<param-name>scanPackagePath</param-name>
+		<param-value>com.walidake.annotation.hibernate</param-value>
+	</context-param>
+	<listener>
+		<listener-class>com.walidake.annotation.hibernate.HibernateListener</listener-class>
+	</listener>
+</web-app>
