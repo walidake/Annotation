@@ -3,16 +3,16 @@
 Java版本： 	jdk1.8
 
 需要的jar包：	junit,commons-dbcp,
-			commons-pool,
-			mysql-connector-java,
-			commons-beanutils
+		commons-pool,
+		mysql-connector-java,
+		commons-beanutils
 
-com.walidake.annotation.tea			自定义注解入门用例
+com.walidake.annotation.tea		自定义注解入门用例
 com.walidake.annotation.hibernate	hibernate框架的简单实现
 com.walidake.annotation.hibernate	mybatis框架的简单实现
 com.walidake.annotation.dbcp.util	dbcp数据连接池工具类
 
 注意：	自定义mybatis中的属性名和数据库名一一对应。
-		如果实际项目需要灵活扩展，可以采用别名。
-		
-		感兴趣的小伙伴可以试试整合二级缓存进来。
+	如果实际项目需要灵活扩展，可以采用别名。
+	
+	感兴趣的小伙伴可以试试整合二级缓存进来。
